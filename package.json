@@ -1,0 +1,23 @@
+{
+  "name": "morilabs-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --host 0.0.0.0",
+    "build": "vite build",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.0",
+    "@sveltejs/kit": "^2.48.5",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.56.10",
+    "svelte-check": "^4.1.7",
+    "typescript": "^5.8.3",
+    "vite": "^6.4.3",
+    "wrangler": "^4.150.0"
+  }
+}

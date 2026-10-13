@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Mori Labs
+N:;Mori Labs;;;
+ORG:Mori Labs
+TITLE:Founder & Indie Hacker
+EMAIL;TYPE=WORK:support@morilabs.dev
+URL:https://morilabs.dev
+NOTE:자체 서비스를 만드는 1인 제품 스튜디오. https://morigram.com
+END:VCARD
